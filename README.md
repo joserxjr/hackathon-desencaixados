@@ -57,20 +57,10 @@ Senha: SenhaForte123
 
 > Nao e necessario cadastrar usuario, criar banco manualmente nem configurar variaveis de ambiente para o fluxo local padrao.
 
-## Fluxo sugerido de avaliacao
-
-Para a banca testar o sistema de ponta a ponta:
-
-1. Inicie o backend e o frontend com os comandos acima.
-2. Acesse `http://localhost:4200`.
-3. Faca login com o usuario de demonstracao.
-4. Ajuste as preferencias de acessibilidade disponiveis na interface.
-5. Confirme que as preferencias sao persistidas e recuperadas pelo usuario autenticado.
-6. Se quiser validar a API diretamente, abra o Swagger em `http://localhost:8080/swagger-ui.html`.
 
 ## Teste da extensao no navegador
 
-Se a avaliacao exigir a experiencia completa da extensao:
+
 
 ```bash
 cd frontend
